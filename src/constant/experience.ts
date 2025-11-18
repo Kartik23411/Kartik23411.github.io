@@ -10,6 +10,7 @@ export const experienceData = [
     ],
     company: "Malaviya National Institure of Technology Jaipur",
     technologies: [
+      "Data Analysis", "Python", "Machine Learning"
     ],
   },
   {

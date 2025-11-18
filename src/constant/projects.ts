@@ -1,41 +1,30 @@
 export const projectsData = [
   {
-    name: "AN",
+    name: "MyDesk",
     description:
-      "A personal portfolio built with a focus on performance, SEO, and analytics. Includes structured metadata, full integration with modern analytics tools, and scores 91+ in real-world performance tests.",
-    github_link: "https://github.com/aarabii/an",
-    demo: "https://aarab.vercel.app/",
-    tech: ["Framer Motion", "EmailJS", "Vercel Analytics"],
+      "A cross-platform remote-access app that lets users securely view, control, and share their PC screen over the internet. It uses unique device IDs, PIN-based authentication, and P2P connections for fast, reliable access.",
+    github_link: "https://github.com/kartik23411/mydesk",
+    tech: ["Python", "PySide6", "Fast Api", "OpenCV"],
   },
   {
-    name: "Orphia",
+    name: "Sweat Out",
     description:
-      "An AI-powered music generator that turns text prompts into original soundtracks. Designed for musicians and content creators, it features a clean, modern UI and customizable music generation workflows.",
-    github_link: "https://github.com/aarabii/Orphia-AI-Music-Generator",
-    demo: "https://orphia.vercel.app/",
-    tech: ["Hugging Face", "Clerk", "API Integration"],
+      "SweatOut is a Jetpack Compose–based fitness app that tracks streaks, calories, workout time, and overall progress. With Supabase integration, offline support, and seamless media/image handling, it offers personalized workout plans and an immersive exercise experience.",
+    github_link: "https://github.com/kartik23411/project_sweat_out",
+    tech: ["Kotlin", "Firebase Auth", "Supabase", "Coil", "Hilt"],
   },
   {
-    name: "Ideascribe",
+    name: "DoomStop",
     description:
-      "A collaborative workspace that supports real-time editing, authentication, file uploads, and autosaving — all built to boost creativity and productivity in team environments.",
-    github_link: "https://github.com/aarabii/ideascribe",
-    demo: "https://ideascribe.vercel.app/",
-    tech: ["Convex", "Clerk", "Edgestore"],
+      "DoomStop helps users break distraction loops with focus timers, rising vibration intensity, and quotes that grow harsher with each alert. A minimalist, Jetpack Compose–powered app designed to build discipline and curb doomscrolling naturally.",
+    github_link: "https://github.com/kartik23411/focuss",
+    tech: ["Vibration Manager", "Kotlin", "MVI", "Android Sdk"],
   },
   {
-    name: "CppTestGenAI",
+    name: "Arrange it",
     description:
-      "A smart test case generator for C++ projects, powered by LLMs. It analyzes source and header files, creates comprehensive test scenarios, and reduces manual testing time by up to 80%.",
-    github_link: "https://github.com/aarabii/CppTestGenAI",
-    tech: ["Ollama", "Caching", "Test Pipeline"],
-  },
-  {
-    name: "CraftoGram",
-    description:
-      "An AI-driven tool for generating Instagram bios and content. Features dynamic prompt handling and real-time streaming output to help creators craft engaging profiles effortlessly.",
-    github_link: "https://github.com/aarabii/crafto",
-    demo: "https://craftogram.vercel.app/",
-    tech: ["Groq", "Vercel AI SDK", "Zod"],
+      "An AI-driven Streamlit application built at IIT P to automate large-scale exam seating allocation with predictive student distribution, clash detection, and optimized faculty movement. It generates complete seating plans, unallocated lists, and attendance sheets in real time.",
+    github_link: "https://github.com/Kartik23411/Arrange_it_iitp_seating_arrangement_python_project",
+    tech: ["Python", "StreamLit", "Data Analytics", "AI"],
   },
 ];
